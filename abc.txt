@@ -1,0 +1,65 @@
+Download
+
+ 
+
+
+Run jenkins
+
+1. step start the sever from jenkins folder
+
+java -jar jenkins.war --httpPort=8888
+
+
+2.copy the password from location
+
+3 step
+install the suggested plugin
+
+3. continue as admin
+
+
+4.manage plugin na d gloabla tool configuratino
+
+java home path
+C:\Program Files (x86)\Java\jdk1.7.0_03
+
+gradhle home path
+
+D:\gradle-3.2.1-bin\gradle-3.2.1 no bin
+
+github
+
+C:\Program Files\Git\bin\git.exe
+-------------------------------
+Add plugin 
+
+
+1java home path
+2. git exe path
+3.gradle home path
+
+
+Create new Task or Project-> New item
+
+ 
+
+Enter project name and select freestyle project
+
+
+Project Build Configurations
+
+1.Invoke gradle name as u given in gloabal tool configration
+2. taks –build
+3.gradle project path from home path to /(aleready we have given github home path)
+
+e.g BankApplicationUsingGradle/
+
+
+PROJECT DEPLOY LOCATION
+
+
+
+PROJECT DEPLOY LOCATION
+
+
+-----
